@@ -1,0 +1,50 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url('./animated-laughing-elements-flat-cartoon-style-hd-footage-funny-joke-sense-of-humor-positive-feeling-color-illustration-on-white-background-with-alpha-channel-transpar.jpg');
+    
+    background-size: cover;
+    margin: 0;
+    padding: 10px 15px;
+    width: auto;
+    border: 10px;
+}
+
+button{
+    background-color: black;
+    color: goldenrod;
+    font-family: 'Golos Text', sans-serif;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 1px 20px;
+    transition-duration: 0.4s;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+button:hover{
+    background-color: rgb(39, 39, 39);
+    border: 2px solid goldenrod;
+    transition-duration: 0.4s;
+  }
+.addJoke{
+  text-align: center;
+}
+.jokePreview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-radius: 20px;
+    border-bottom: 1px solid #fafafa;
+    background-color: rgba(255, 255, 255, 0.45);
+    transform: translateY(3px);
+    transition-duration: 0.4s;
+  }
+.jokePreview:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,1);
+    transform: translateY(-3px);
+    transition-duration: 0.4s;
+  }
+.jokePreview h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 8px;
+  }
